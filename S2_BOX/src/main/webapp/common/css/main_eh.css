@@ -1,0 +1,231 @@
+@CHARSET "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	margin: 0
+}
+/* 배너 스타일 */
+.colum2 {
+	height: 530px;
+	width: 100%;
+}
+
+.colum3 {
+	width: 80%;
+	height: 80px;
+	margin-top: 5%;
+	/* 	border-bottom: 5px double;
+	border-top: 5px double; */
+	line-height: 35px;
+}
+ /* 예매순 */
+.colum4 {
+	width: 22%;
+	float: left;
+	margin-left: 16%;
+	height: 400px;
+	margin-right: 2%;
+}
+/* 인기순 */
+.colum5 {
+	width: 20%;
+	float: left;
+	height: 400px;
+	margin-right: 2%;
+}
+/* 평점순 */
+.colum6 {
+	width: 22%;
+	float: left;
+	height: 400px;
+}
+/* 예매 평점 인기 높이 */
+.colum_1 {
+	height: 50px;
+}
+
+.row2:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.row2 img {
+	height: 100%;
+	width: 100%;
+}
+
+.colum4 .colum_1 {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.colum4 .colum_2 {
+	position: relative;
+	top: -50px;
+	left: 0px;
+	z-index: 2;
+	color: white;
+	line-height: 50px;
+}
+
+.colum5 .colum_1 {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.colum5 .colum_2 {
+	position: relative;
+	top: -50px;
+	left: 0px;
+	z-index: 2;
+	color: white;
+	line-height: 50px;
+}
+
+.colum6 .colum_1 {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.colum6 .colum_2 {
+	position: relative;
+	top: -50px;
+	left: 0px;
+	z-index: 2;
+	color: white;
+	line-height: 50px;
+}
+
+.colum_3 {
+	border: solid;
+	border-color: #E6E6E6;
+	border-bottom: 10px;
+	border-top: 10px;
+}
+/* 순위 1~10등 디자인 */
+.str1 {
+	font-weight: bold;
+	width: 50px;
+	"
+}
+
+.str3 {
+	font-weight: bold;
+	width: 50px;
+	"
+}
+
+.str2 {
+	font-weight: bold;
+	width: 50px;
+	"
+}
+
+.item2 {
+	height: 25px;
+	margin-left: 10px;
+	"
+}
+/* ===============예고편  스타일 */
+.colum7 {
+	margin-left: 10%;
+	width: 65%;
+	float: left;
+	height: 400px;
+}
+
+.colum7 iframe {
+	width: 100%;
+	height: 400px;
+}
+
+.colum8 {
+	width: 15%;
+	float: left;
+	height: 400px;
+}
+
+.colum8 img {
+	width: 100%;
+	height: 100%;
+}
+
+.row3:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* ===============슬라이드쇼  스타일 */
+
+/* Slideshow container */
+.slideshow-container {
+	width: 100%;
+	height: 550px;
+	/* position: relative; */
+}
+
+.slideshow-container img {
+	width: 100%;
+	height: 560px;
+}
+
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #4C0B5F;
+	border-radius: 70%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	border-style: none;
+}
+
+.dot_div {
+	text-align: center;
+	margin-top: -2%;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+@
+-webkit-keyframes fade {
+	from {opacity: .4
+}
+
+to {
+	opacity: 1
+}
+
+}
+@
+keyframes fade {
+	from {opacity: .4
+}
+
+to {
+	opacity: 1
+}
+
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.prev, .next, .text {
+		font-size: 11px
+	}
+}

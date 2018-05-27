@@ -1,0 +1,204 @@
+@CHARSET "UTF-8";
+
+.vip_tit1{
+display:block;
+margin-top: 70px;
+font-size:110%;
+width: 55%;
+margin-left: 22.5%;
+margin-right: 22.5%;
+}
+
+.tit1_h2{
+width:100%;
+float:left;
+margin-top:0;
+margin-bottom:10px; 
+letter-spacing:-2px;
+font-family: 'Nanum Barun Gothic Bold'
+}
+
+.hr1{ 
+width:100%;
+color:#e1e1e1;
+border:1px solid;
+}
+
+.vip1 {
+	display:block;
+	width: 55%;
+	height: auto;
+	margin-top: 70px;
+	margin-left: 22.5%;
+	margin-right: 22.5%;
+}
+
+.vip1 img{
+width: 100%;
+}
+
+.vip2 {
+	display:block;
+	width: 55%;
+	margin-top:25px;
+	margin-left: 22.5%;
+	margin-right: 22.5%;
+	height: auto;
+}
+
+.vip2 img{
+width: 100%;
+}
+
+.vip3 {
+	display:inline-block;
+	background:url('/cgv/image/VIP 등급별 혜택 안내.png');
+	background-size: 100% 100%;
+	width: 55%;
+	height:auto;
+	margin-left: 22.5%;
+	margin-right: 22.5%;
+	margin-top: 70px;
+	text-align:middle;
+}
+
+.vip3_button1{
+width: 49%;
+height:111px;
+float:left;
+border:0;
+outline:0;
+/* border:solid 1px;
+border-color:#e1e1e1; */
+}
+
+/* .vip3_button1 a{
+color:black;
+font-weight:bold;
+font-size:150%;
+text-decoration:none;
+} */
+
+.vip3_button1 img{
+width:100%;
+}
+.vip3_button2{
+width: 49%;
+height:111px;
+float:right;
+border:0;
+outline:0;
+/* border:solid 1px;
+border-color:#e1e1e1; */
+}
+
+.vip3_button2 img{
+width:100%;
+}
+
+/* .vip3_button2 a{
+color:black;
+font-weight:bold;
+font-size:150%;
+text-decoration:none;
+} */
+
+.lounge {
+	width: 55%;
+	height: 1200px;
+	margin-top: 70px;
+	margin-left: 22.5%;
+	margin-right: 22.5%;
+}
+
+.lounge table{
+width: 100%;
+margin-top: 25px;
+border-top: 2px solid #88387f;
+border-collapse: collapse;
+}
+
+.lounge_tr1{
+    text-align: center;
+    font-size: 13px;
+    border-bottom: 1px solid #e1e1e1;
+    line-height:1.5em;
+}
+
+.lounge_tr1 button{
+	border: 0;
+	cursor: pointer;
+	background-color:#7a7a7a;
+	color:white;
+	margin-top:5px;
+	padding:2px 6px 3px 6px;
+}
+
+.lounge_tr1 button:hover {
+	opacity: 0.8;
+}
+
+.lounge_tr1 td{
+padding: 25px 0 25px 0;
+font-weight:bold;
+color:#666666;
+}
+
+.lounge_h2{
+width:100%;
+text-align:center;
+margin-top:0;
+margin-bottom:10px; 
+letter-spacing:-1px;
+}
+
+.tr1{
+background-color:#fff0ff;
+height:51px;
+border-bottom: 1px solid #e1e1e1;
+}
+
+.lounge1 table{
+width:55%;
+margin-left:22.5%;
+margin-right:22.5%;
+margin-top:25px;
+}
+
+.lounge_tr2 td{
+font-weight:bold;
+font-size:150%;
+}
+
+.lounge_tr3 {
+text-align:left;
+}
+
+.lounge_tr3 td{
+font-weight:bold;
+font-size:90%;
+letter-spacing:-0.3px; 
+margin-right:40px;
+vertical-align: text-top;
+}
+
+#modalLayer{
+display:none; 
+position:relative;
+}
+#modalLayer .modalContent{
+width:440px; height:200px; 
+padding:20px; border:1px solid #ccc;
+position:fixed; left:50%; top:50%; 
+z-index:11; background:#fff;
+font-weight:bold;
+}
+#modalLayer .modalContent button{
+top:0; right:0;
+cursor:pointer;
+}
+
+.modalContent1{
+margin-top:10px;
+color:#666666;
+}

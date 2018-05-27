@@ -1,0 +1,318 @@
+ol{
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+.sect-finder th {
+	text-align: left;
+	padding: 11px 0;
+	border-top: 1px solid #3e484f;
+	color: #fdfcf0;
+	font-size: 11px;
+	font-family: 'NanumBarunGothicBold';
+	vertical-align: middle;
+	font-weight: bold;
+	line-height: 1.5em;
+	margin: 0;
+	border: 0;
+	word-break: break-all;
+	display: table-cell;
+}
+
+.sect-common {
+	height: 450px;
+	overflow: hidden;
+	width: 980px;
+	font-size: 100%;
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	word-break: break-all;
+	display: block;
+	float: center;
+}
+
+.sect-finder {
+	width: 980px;
+	height: 450px;
+	background: #29353d;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	word-break: break-all;
+	display: block;
+}
+
+.sect-finder h3 {
+	height: auto;
+	margin: 0;
+	border: 0;
+	padding: 5px 0 10px;
+	background: none;
+	line-height: 1.2;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'NanumBarunGothicBold';
+	font-size: 140%;
+	verticla-alingn: baseline;
+	word-break: break-all;
+	display: block;
+}
+
+.sect-finder td {
+	padding: 11px 0;
+	border-top: 1px solid #3e484f;
+	color: #fdfcf0;
+	font-size: 11px;
+	font-family: 'NanumBarunGothicBold';
+	vertical-align: middle;
+	font-weight: normal;
+	line-height: 1.5em;
+	text-align: left;
+	margin: 0;
+	border: 0;
+	word-break: break-all;
+}
+
+.fieldset {
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	word-break: break-all;
+	display: block;
+	-webkit-margin-start: 2px;
+	-webkit-margin-end: 2px;
+	-webkit-padding-before: 0.35em;
+	-webkit-padding-start: 0.75em;
+	-webkit-padding-end: 0.75em;
+	-webkit-padding-after: 0.625em;
+	min-width: -webkit-min-content;
+}
+
+.findertable {
+	font-size: 12px;
+	line-height: 1.2;
+	color: #666;
+	width: 100%;
+	border-spacing: 0;
+	font-family: 'NanumBarunGothicBold';
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	word-break: break-all;
+}
+
+.findertr {
+	display: table-row;
+}
+
+#keyword_type {
+	font-size: 12px;
+	font-family: 'NanumBarunGothicBold';
+	line-height: 27px;
+	height: 29px;
+	padding: 3px 5px;
+	border: 1px solid #b4b3aa;
+	vertical-align: middle;
+}
+
+#keyword {
+	height: 25px;
+	border: 1px solid #b5b5b5;
+	font-size: 12px;
+	font-family: 'NanumBarunGothicBold';
+	color: #666;
+	vertical-align: middle;
+	overflow: visible;
+	padding: 1px 0px;
+	-webkit-appearance: textfield;
+	background-color: white;
+	-webkit-rtl-ordering: logical;
+	cursor: auto;
+}
+
+.finder_ul {
+	list-style: none;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	word-break: break-all;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+.sect-finder td ul:first-child li:first-child {
+	width: 14%;
+	margin: 0;
+}
+
+.sect-finder td li {
+	float: left;
+	width: 14%;
+	font-size: 100%;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	word-break: break-all;
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+.sect-finder td input {
+	font-size: 12px;
+	line-height: 1.2;
+	color: #666;
+	font-family: 'NanumBarunGothicBold';
+	vertical-align: middle;
+	overflow: visible;
+}
+
+.sect-finder td label {
+	display: inline-block;
+	padding: 1px 0;
+	font-size: 100%;
+	margin: 0;
+	border: 0;
+	vertical-align: baseline;
+	word-break: break-all;
+	cursor: default;
+}
+
+.sect-finder td .collage {
+	color: #23b7e8;
+	width: 86%;
+}
+
+.sect-common form {
+	border: 0;
+}
+
+#year_start {
+	display: inline-block;
+	height: 25px;
+	line-height: 22px;
+	padding-left: 10px;
+	border: 1px solid #b5b5b5;
+	font-size: 12px;
+	color: #666;
+	font-family: 'NanumBarunGothicBold';
+	vertical-align: middle;
+	overflow: visible;
+	padding: 1px 0px;
+}
+
+#year_end {
+	display: inline-block;
+	height: 25px;
+	line-height: 22px;
+	padding-left: 10px;
+	border: 1px solid #b5b5b5;
+	font-size: 12px;
+	color: #666;
+	font-family: 'NanumBarunGothicBold';
+	vertical-align: middle;
+	overflow: visible;
+	padding: 1px 0px;
+}
+
+.sect-finder .wrap-submit {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	word-break: break-all;
+	display: block;
+}
+
+.sect-finder .wrap-submit .round {
+	width: 71px;
+}
+
+.sect-finder .wrap-submit>button {
+	margin: 0 3px;
+}
+
+.round.inred {
+	background: #e71a0f;
+	border: 2px solid #e71a0f;
+	color: #ffffff;
+	line-height: 21px;
+}
+
+.round {
+	line-height: 23px;
+	font-family: 'NanumBarunGothicBold';
+	text-align: center;
+	vertical-align: middle;
+}
+
+.sect-movie-chart {
+	margin-top: 30px;
+	position: relative;
+	overflow: hidden;
+	clear: both;
+	zoom: 1;
+}
+
+.box-image {
+	position: relative;
+	width: 197px;
+	min-height: 272px;
+	margin-bottom: 10px;
+}
+
+.box-contents {
+	height: 93px;
+}
+
+.score {
+	margin-top: 7px;
+	font-size: 11px;
+}
+
+.rank {
+	background: #e71a0f;
+	display: block;
+    height: 28px;
+    margin-bottom: 4px;
+    border: 6px solid #000000;
+    color: #ffffff;
+    font-size: 19px;
+    text-align: center;
+    line-height: 28px;
+
+}
+
+.container {
+	width : 100%;
+	margin : 0 auto;
+}
+
+.movieTable_td {
+	width : 220px;
+	height : 275px;
+}

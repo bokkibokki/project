@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+
+/* Change styles for span and cancel button on extra small screens */
+/* @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn { 
+       width: 100%;
+    } 
+} */ 
+
+.loninform {
+    border: 1px solid #e1e1e1;
+    position: relative;;
+    width: 750px;
+    height: 400px;
+    margin:0 auto;
+}
+
+/* span {
+
+padding: 3px 50px;
+text-align:center;
+
+} */
+
+.empty{
+width:100%;
+height:100px;
+}
+
+.login{
+    width:300px;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.btn {
+    background: #fff;
+    color: #88387f;
+    padding: 14px 21px;
+    margin: 8px 0;
+    border: 1px solid #88387f;
+    cursor: pointer;
+    width: 300px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.psw a{
+text-decoration:none;
+color:black;
+font-size:100%;
+}
+
+.psw_txt0{
+margin-right:7px;
+}
+
+.psw_txt1{
+margin:7px;
+}
+
+.psw_join{
+margin:7px;
+}

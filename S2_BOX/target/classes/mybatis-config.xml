@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="model.MovieFinderAccessDataBean" alias="Movie" />
+		<typeAlias type="model.BoardDataBean" alias="Board" />
+		<typeAlias type="model.VipDataBean" alias="VipFaq" />
+		<typeAlias type="model.MemberDataBean" alias="Member" />
+		<typeAlias type="model.EvaluationDataBean" alias="Evaluation" />
+		<typeAlias type="model.WishListDataBean" alias="WishList" />
+		<typeAlias type="model.CurrentMovieDataBean" alias="CurrentMovie" />
+		<typeAlias type="model.S2boxDataBean" alias="Sbox" />
+		<typeAlias type="model.MoviedivDataBean" alias="Moviediv" />
+		<typeAlias type="model.LocalDataBean" alias="Local" />
+		<typeAlias type="model.DatedivDataBean" alias="Datediv" />
+		<typeAlias type="model.ScreenDataBean" alias="Screen" />
+		<typeAlias type="model.TheaterDataBean" alias="Theater" />
+	</typeAliases>
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC"></transactionManager>
+			<dataSource type="POOLED">
+				<property name="driver" value="oracle.jdbc.driver.OracleDriver" />
+				<property name="url" value="jdbc:oracle:thin:@211.238.142.60:1521:orcl" />
+				<property name="username" value="scott" />
+				<property name="password" value="1111" />
+			</dataSource>
+		</environment>
+	</environments>
+	<mappers>
+		<mapper resource="Movie.xml"></mapper>
+		<mapper resource="Vip.xml"></mapper>
+		<mapper resource="Board.xml"></mapper>
+		<mapper resource="Member.xml"></mapper>
+		<mapper resource="Evaluation.xml"></mapper>
+		<mapper resource="WishList.xml"></mapper>
+		<mapper resource="CurrentMovie.xml"></mapper>
+		<mapper resource="Reservation.xml" />
+	</mappers>
+
+</configuration>

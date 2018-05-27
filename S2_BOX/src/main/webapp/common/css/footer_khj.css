@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+
+.wrap12 {
+    margin-top:100px;
+    padding: 0;
+    width: 100%;
+    <%-- background:url('<%=request.getContextPath()%>/common/image/footerImage/footer.png') no-repeat;
+    background-position:0 0, center; --%>
+    }
+
+.wrap12 img{
+height: auto;
+width: 100%;
+}
+
+.footer{
+	width: 100%;
+    height: 25px;
+    position: relative;
+    border: 1px solid;
+    border-color: #b7b7b7 transparent #dbdbdb;
+    padding: 10px 0 15px;
+}
+
+.footer a{
+color:#4a4844;
+font-size: 80%;
+font-weight:bold;
+display: inline; /*  세로나열을 가로나열로 변경 */
+border-left: 2px solid #999; /* 각 메뉴의 왼쪽에 "|" 표시(분류 표시) */
+padding: 0 4px 0px 7px;
+text-decoration: none;
+}
+
+.footer a:hover {
+	color: #ff0000;
+}
+
+/* .footer center{
+margin-top:-5px;
+} */
+
+.footer a:first-child {
+	border-left: none;
+}
+
+.ex1 img{
+	width: 35%;
+	float:right;
+	margin-top:5px;
+}
+
+.ex1 {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top:30px;
+}
+
+.ex2 {
+    width: 75%;
+    margin-top:30px;
+    float:left;
+    line-height:1.3em;
+}
+
+.cor3{
+width:100%;
+height:200px;
+display:block;
+}
+
+
+
+.ex2 b{
+	color:#94979d;
+    font-weight:bold;
+	font-size:77%;
+    margin-left:35px;
+    }

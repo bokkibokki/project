@@ -1,0 +1,181 @@
+@CHARSET "UTF-8";
+
+.wrap123 {
+   background:url('../image/mainImage/main_back.png');
+   background-size: 100% 100%;
+   margin: 0 auto;
+   padding: 0;
+   width: 100%;
+   height:170px;
+   position: relative;
+    top:0px; left:0px;
+}
+/* ===========맨위 흰색 여백============== */
+.head {
+	width: 80%;
+	margin-left: 10%;
+	height: 45px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+/* ============ 메뉴 부분  1================= */
+.container {
+	width: 100%;
+	position: absolute;
+	top: 45px;
+	left: 0px;
+}
+
+.container:after {
+	width: 80%;
+	display: table;
+	clear: both;
+}
+
+.content {
+	float: left;
+	width: 20%;
+	height: 90px;
+}
+
+.content img {
+	width: 200px;
+	height: auto;
+}
+
+.extra1 {
+	float: left;
+	width: 40%;
+	line-height: 120px;
+	font-weight: bold;
+}
+
+.extra1 a {
+	margin: 0 8px 0 8px;
+	color: #1a1a1a;
+}
+
+.extra2 {
+	float: left;
+	width: 40%;
+	line-height: 120px;
+	height: 90px;
+	font-weight: bold;
+}
+
+.extra2 a {
+	margin: 0 8px 0 8px;
+	color: #1a1a1a;
+}
+/* ============ 메뉴 부분  2================= */
+.container2 {
+	width: 100%;
+	position: absolute;
+	top: 130px;
+	/* left:0px; */
+}
+
+.container2:after {
+	width: 80%;
+	display: table;
+	clear: both;
+}
+
+.content2 {
+	float: left;
+	width: 30%;
+	height: 40px;
+}
+
+.content2 a {
+	margin: 0 8px 0 8px;
+	color: #1a1a1a;
+	font-weight: bold;
+}
+
+.extra1_2 {
+	float: left;
+	width: 35%;
+	text-align: center;
+	height: 40px;
+}
+
+.extra2_2 {
+	float: right;
+	width: 35%;
+	text-align: center;
+	height: 40px;
+}
+
+/* =============스타일================ */
+
+.dropbtn {
+	background-color: white;
+	color: black;
+	padding: px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	/* position: relative; */
+	display: inline-block;
+	margin-left: 10%;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color:white;
+	color: black;
+	width: 150px;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 16px 16px;
+	text-decoration: none;
+	display: block;
+	float: left;
+	border: none;
+	height: 18px;
+	font-size: 14px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown a:HOVER {
+	color: purple;
+	border-color: purple;
+}
+.dropdown-content a:HOVER {
+	border-bottom: solid;
+
+}
+.quick{
+	position: absolute; 
+	top: 200px;
+	border: solid 3px purple; 
+	width: 100px; 
+	height: 250px; 
+	right: 25; 
+	background-color: white;
+	
+}
+.quick button {
+	width: 95%; 
+	height: 19%; 
+	background-color: white;
+	border: none;
+	font:bold;
+	font-family:'NanumBarunGothic';
+	font-weight: bold;
+}
+.quick button:HOVER {
+	color: purple;
+	border-color: purple;
+	border-bottom: solid;
+}
